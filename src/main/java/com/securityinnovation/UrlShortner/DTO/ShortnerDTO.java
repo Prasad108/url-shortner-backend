@@ -20,6 +20,7 @@ public class ShortnerDTO {
     @Column(unique=true)
     private String shortUrl;
     @Column
+    @Lob
     private String longUrl;
 
     @CreatedDate
