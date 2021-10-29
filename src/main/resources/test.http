@@ -1,0 +1,15 @@
+
+#####
+
+POST http://localhost:8080/api/shortenUrl
+Authorization: Basic user:Password@123
+content-type: application/json
+{
+    "url": "https://marketplace.visualstudio.com/items?itemName=humao.rest-client"
+}
+
+
+#####
+GET  http://localhost:8080/rv4cAGuiMs
+Authorization: Basic user:Password@123
+
